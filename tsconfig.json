@@ -6,6 +6,9 @@
     "experimentalDecorators": true,
     "baseUrl": "./",
     "module": "commonjs",
+    "paths": {
+      "@/*": ["src/*"]
+    },
     "strictBindCallApply": false,
     "strictNullChecks": false,
     "noFallthroughCasesInSwitch": false,
@@ -17,6 +20,5 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": false,
     "skipLibCheck": true
-  },
-  "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]
+  }
 }
